@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sobre mí · Marcela Zúñiga</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  /* Sin foto: el contenido ocupa todo el ancho */
+  .sobre .cuerpo{grid-template-columns:1fr;}
+
+  /* Herramientas con nivel en puntos */
+  .herr-lista{width:100%;min-width:0;}
+  .herr h3{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;margin:1.2rem 0 .4rem;opacity:.7;}
+  .herr ul{list-style:none;padding:0;margin:0;}
+  .herr li{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.55rem 0;border-bottom:1px solid currentColor;border-bottom-color:rgba(0,0,0,.15);}
+  .pts{display:inline-flex;gap:.35rem;flex-shrink:0;}
+  .pts i{width:.8rem;height:.8rem;border-radius:50%;border:2px solid currentColor;display:block;}
+  .pts i.on{background:currentColor;}
+</style>
+</head>
+<body>
+<header class="nav"><a class="logo" href="index.html" aria-label="Inicio">MZ</a><a href="index.html#indice">← Proyectos</a></header>
+<main>
+<article class="proyecto sobre" style="--bg:var(--rosa);--fg:var(--carbon);--ac:var(--pistacho)">
+  <header class="cab"><h1>Sobre mí</h1></header>
+  <div class="cuerpo">
+    <div>
+      <section class="bloque"><h2>Quién soy</h2><p>Soy Marcela Zúñiga, estudiante de Diseño Industrial en Chile. Me interesa explorar distintas formas de diseñar, desde los objetos y espacios hasta las experiencias digitales e interactivas.
+      Durante mi formación he desarrollado proyectos que combinan creatividad, experimentación y tecnología.</p></section>
+      <section class="bloque"><h2>Qué me interesa</h2><p>Me interesa el diseño como una herramienta para experimentar, comunicar ideas y generar nuevas experiencias. Me motiva explorar la relación entre las personas y la tecnología,
+      trabajar con diferentes materiales y descubrir cómo disciplinas como el diseño industrial y digital pueden conectarse.</p></section>
+      <section class="bloque"><h2>Cómo trabajo</h2><p>Me gusta aprender haciendo, experimentar y probar distintas soluciones durante el proceso. Disfruto llevar las ideas a algo tangible, ya sea mediante prototipos físicos, herramientas digitales o experiencias interactivas.
+      También valoro el trabajo colaborativo, compartir ideas y aprender de otras perspectivas.</p></section>
+      <section class="bloque herr"><h2>Herramientas</h2>
+        <div class="herr-lista">
+        <h3>Diseño</h3>
+        <ul>
+          <li><span>Figma</span><span class="pts" role="img" aria-label="Nivel 4 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></li>
+          <li><span>Illustrator</span><span class="pts" role="img" aria-label="Nivel 3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></li>
+          <li><span>Rhino</span><span class="pts" role="img" aria-label="Nivel 5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></li>
+          <li><span>AutoCAD</span><span class="pts" role="img" aria-label="Nivel 5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></li>
+        </ul>
+        <h3>Programación</h3>
+        <ul>
+          <li><span>HTML</span><span class="pts" role="img" aria-label="Nivel 5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></li>
+          <li><span>CSS</span><span class="pts" role="img" aria-label="Nivel 5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></li>
+          <li><span>JavaScript</span><span class="pts" role="img" aria-label="Nivel 3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></li>
+          <li><span>C++</span><span class="pts" role="img" aria-label="Nivel 4 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></li>
+          <li><span>Python</span><span class="pts" role="img" aria-label="Nivel 3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></li>
+        </ul>
+        <h3>Prototipado</h3>
+        <ul>
+          <li><span>Corte láser</span><span class="pts" role="img" aria-label="Nivel 4 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></li>
+          <li><span>Impresión 3D</span><span class="pts" role="img" aria-label="Nivel 4 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></li>
+          <li><span>Corte CNC</span><span class="pts" role="img" aria-label="Nivel 3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></li>
+        </ul>
+        </div>
+      </section>
+      <section class="bloque"><h2>Trayectoria</h2><ul><li>2024 – Actualidad · Diseño Industrial, Universidad Diego Portales.</li></ul></section>
+      <section class="bloque"><h2>Contacto</h2><ul><li><a href="mailto:marcela.zm.05@gmail.com">marcela.zm.05@gmail.com</a></li><li><a href="https://github.com/marcezm" target="_blank" rel="noopener">GitHub: marcezm</a></li></ul></section>
+    </div>
+  </div>
+</article>
+</main>
+<script src="js/sub.js"></script>
+</body>
+</html>

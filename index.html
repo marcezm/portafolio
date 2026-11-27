@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Marcela Zúñiga · Diseño industrial, UX/UI e interacción</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navegación fija -->
+<div class="progreso"></div>
+<header class="nav">
+  <a class="logo" href="#inicio" aria-label="Inicio">MZ</a>
+  <span id="indicador">Inicio</span>
+  <button id="btnMenu" aria-expanded="false" aria-controls="menu">Menú</button>
+</header>
+<nav class="menu" id="menu" aria-label="Menú principal">
+  <div class="grande">
+    <a href="#inicio">Inicio</a>
+    <a href="#indice">Proyectos</a>
+    <a href="sobre-mi.html">Sobre mí</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+  <div class="lista"><a href="proyectos/bioglitch.html">BIO//GLITCH</a><a href="proyectos/nanai.html">Nanai</a><a href="proyectos/sin-verguenza.html">Sin Vergüenza</a><a href="proyectos/igneo.html">Igneo</a><a href="proyectos/tool360.html">Tool 360</a></div>
+</nav>
+
+<main>
+<!-- 1. PORTADA -->
+<section class="hero" id="inicio" data-label="Inicio">
+  <div class="hero-fijo">
+    <svg class="sticker" viewBox="0 0 100 100" aria-hidden="true">
+      <defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs>
+      <text><textPath href="#circ">portafolio · diseño · portafolio · diseño · </textPath></text>
+    </svg>
+    <div class="forma circulo"></div>
+    <div class="forma semi"></div>
+    <div class="forma estrella"></div>
+    <h1 class="nombre"><span class="l1">Soy</span><span class="l2">Marcela</span><span class="l3">Zúñiga</span></h1>
+    <p class="sub">Estudiante de Diseño Industrial con enfoque en UX/UI e interacción.</p>
+    <p class="accesos"><a href="#indice">Ver proyectos</a><a href="#contacto">Contacto</a></p>
+    <p class="hint">Baja para empezar ↓</p>
+    <div class="forma cubre"></div>
+  </div>
+</section>
+
+<!-- 2. FRASE -->
+<section class="frase" id="frase" data-label="Presentación">
+  <div class="frase-fijo">
+    <p class="grande" id="textoFrase">
+      Diseño <span class="k rosa">objetos</span>, <span class="k pistacho">interfaces</span> y <span class="k celeste">experiencias</span> que se pueden tocar, usar y sentir.
+    </p>
+    <p class="formacion">Estudio Diseño y trabajo entre lo digital y lo físico. Estos son los proyectos de mi formación, del más reciente al más antiguo.</p>
+  </div>
+</section>
+
+<!-- 3. ÍNDICE -->
+<section class="indice" id="indice" data-label="Proyectos">
+  <h2>Cinco proyectos</h2>
+  <a class="fila" href="proyectos/bioglitch.html" style="--c:var(--pistacho)"><span class="n">01</span><span class="t">BIO//GLITCH</span><span class="d">Interactivo / Web</span><span class="a">2026</span></a>
+  <a class="fila" href="proyectos/nanai.html" style="--c:var(--vino)"><span class="n">02</span><span class="t">Nanai</span><span class="d">Diseño interactivo</span><span class="a">2026</span></a>
+  <a class="fila" href="proyectos/sin-verguenza.html" style="--c:var(--celeste)"><span class="n">03</span><span class="t">Sin Vergüenza</span><span class="d">Diseño UX/UI</span><span class="a">2026</span></a>
+  <a class="fila" href="proyectos/igneo.html" style="--c:var(--pistacho)"><span class="n">04</span><span class="t">Igneo</span><span class="d">Diseño industrial</span><span class="a">2025</span></a>
+  <a class="fila" href="proyectos/tool360.html" style="--c:var(--rosa)"><span class="n">05</span><span class="t">Tool 360</span><span class="d">Diseño industrial</span><span class="a">2024</span></a>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<section class="contacto" id="contacto" data-label="Contacto">
+  <h2>Contáctame</h2>
+  <p class="intro">¿Quieres conversar, colaborar o saber más de algún proyecto? Escríbeme.</p>
+  <div class="enlaces">
+    <a href="mailto:marcela.zm.05@gmail.com"><span class="etq">Correo</span><span class="val">marcela.zm.05@gmail.com</span></a>
+    <a href="https://github.com/marcezm" target="_blank" rel="noopener"><span class="etq">GitHub</span><span class="val">@marcezm</span></a>
+  </div>
+  <p class="pie">© 2026 Marcela Zúñiga</p>
+</section>
+
+</main>
+
+<script src="js/script.js"></script>
+<script src="js/cursor.js"></script>
+</body>
+</html>
